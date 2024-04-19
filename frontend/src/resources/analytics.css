@@ -1,0 +1,43 @@
+.transactions-count{
+    box-shadow: 0 0 3px grey;
+    padding: 10%;
+    margin: 10%;
+    border-radius: 10%;
+    color: rgba(128, 128, 128, 0.637) !important;
+    background-image: linear-gradient(to top, #b3aedee6 0%, #abd5efd8 100%);
+}
+
+.analytics h4{
+    font-size: 25px;
+    color: rgb(1, 1, 1) !important;
+    font-weight: 500;
+}
+
+.analytics h5{
+    font-size: 20px;
+    color: rgba(1, 1, 1, 0.623) !important;
+}
+
+.category-card{
+    padding: 10px 20px;
+    box-shadow: 0 0 2px gray;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.category-analysis{
+    box-shadow: 0 0 3px grey;
+    padding: 10%;
+    border-radius: 10%;
+    margin: 10px;
+    color: rgba(128, 128, 128, 0.637) !important;
+}
+
+.btn {
+    background-color: #3b1484bf;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border: none;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+.layout{
+    margin: 0 100 px;
+    
+}
+
+.header{
+    background-image: linear-gradient(to bottom, #3188cfe0 0%, #8e63c2dc 100%);
+    padding: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.logo{
+    font-size: 35px;
+    color:aliceblue;
+    margin: 0 !important;
+}
+
+.username {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.content{
+    height: 85vh;
+    box-shadow: 0 0 2px grey;
+    margin-top: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.spinner{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.ant-spin-dot-item{
+    background-color: gray !important;
+}
+
+@media screen and (max-width:700px) {
+    .layout{
+        margin: 0 15px;
+    }
+    .content{
+       overflow-x: auto;
+    }
+    
+}
+
